@@ -24,7 +24,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p1h-ks-dPH">
                                 <rect key="frame" x="0.0" y="0.0" width="188" height="334"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" ambiguous="YES" misplaced="YES" text="Fun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHf-w8-KPh">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" misplaced="YES" text="Fun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WHf-w8-KPh">
                                         <rect key="frame" x="73" y="305" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -36,19 +36,20 @@
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.39784889011858293" blue="0.32340956673900179" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="WHf-w8-KPh" secondAttribute="bottom" constant="8" id="41K-HI-FdM"/>
                                     <constraint firstItem="Red-bN-04c" firstAttribute="top" secondItem="p1h-ks-dPH" secondAttribute="top" constant="20" id="7f8-tj-she"/>
                                     <constraint firstAttribute="width" constant="188" id="AZv-hs-cL8"/>
                                     <constraint firstAttribute="height" constant="334" id="GfW-Lh-I69"/>
+                                    <constraint firstItem="WHf-w8-KPh" firstAttribute="centerX" secondItem="p1h-ks-dPH" secondAttribute="centerX" id="GyX-3a-fmj"/>
                                     <constraint firstAttribute="trailing" secondItem="Red-bN-04c" secondAttribute="trailing" constant="20" id="JWq-ZI-qoN"/>
-                                    <constraint firstItem="WHf-w8-KPh" firstAttribute="top" secondItem="Red-bN-04c" secondAttribute="bottom" constant="8" id="S9E-FP-NH7"/>
+                                    <constraint firstItem="WHf-w8-KPh" firstAttribute="top" secondItem="Red-bN-04c" secondAttribute="bottom" constant="8" id="O9K-xE-PCe"/>
                                     <constraint firstItem="Red-bN-04c" firstAttribute="leading" secondItem="p1h-ks-dPH" secondAttribute="leading" constant="20" id="tj1-8H-z4s"/>
+                                    <constraint firstAttribute="bottom" secondItem="WHf-w8-KPh" secondAttribute="bottom" constant="8" id="tqI-bY-acf"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="94W-Wi-YJC">
                                 <rect key="frame" x="187" y="0.0" width="188" height="334"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" ambiguous="YES" misplaced="YES" text="Fun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAP-v0-CP9">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" misplaced="YES" text="Fun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAP-v0-CP9">
                                         <rect key="frame" x="73" y="305" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -61,6 +62,7 @@
                                 <color key="backgroundColor" red="1" green="0.68010007880000001" blue="0.65601509570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="188" id="1EV-GW-7k7"/>
+                                    <constraint firstItem="FAP-v0-CP9" firstAttribute="centerX" secondItem="94W-Wi-YJC" secondAttribute="centerX" id="MhL-AO-yWL"/>
                                     <constraint firstItem="3xr-g1-IZ8" firstAttribute="leading" secondItem="94W-Wi-YJC" secondAttribute="leading" constant="20" id="O4E-Mu-J3M"/>
                                     <constraint firstItem="FAP-v0-CP9" firstAttribute="top" secondItem="3xr-g1-IZ8" secondAttribute="bottom" constant="8" id="aJZ-I8-2c3"/>
                                     <constraint firstAttribute="height" constant="334" id="gpu-Mp-Ruz"/>
@@ -72,7 +74,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wYh-W8-dGh">
                                 <rect key="frame" x="187" y="333" width="188" height="334"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" ambiguous="YES" misplaced="YES" text="Fun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOz-q8-bhe">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" misplaced="YES" text="Fun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOz-q8-bhe">
                                         <rect key="frame" x="73" y="305" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -85,6 +87,7 @@
                                 <color key="backgroundColor" red="1" green="0.5823224465172725" blue="0.33783627463353783" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="yhH-rS-Upp" firstAttribute="leading" secondItem="wYh-W8-dGh" secondAttribute="leading" constant="20" id="43U-IF-Q1h"/>
+                                    <constraint firstItem="iOz-q8-bhe" firstAttribute="centerX" secondItem="wYh-W8-dGh" secondAttribute="centerX" id="ASb-FD-wES"/>
                                     <constraint firstItem="iOz-q8-bhe" firstAttribute="top" secondItem="yhH-rS-Upp" secondAttribute="bottom" constant="8" id="IfN-1K-0He"/>
                                     <constraint firstItem="yhH-rS-Upp" firstAttribute="top" secondItem="wYh-W8-dGh" secondAttribute="top" constant="20" id="JZf-pb-NmH"/>
                                     <constraint firstAttribute="height" constant="334" id="SMb-Lh-yX4"/>
@@ -96,7 +99,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u5r-sJ-8Wh">
                                 <rect key="frame" x="0.0" y="333" width="188" height="334"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" ambiguous="YES" misplaced="YES" text="Fun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXD-A7-6Tr">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" misplaced="YES" text="Fun" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXD-A7-6Tr">
                                         <rect key="frame" x="73" y="305" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -112,6 +115,7 @@
                                     <constraint firstItem="WCA-Jy-Ngu" firstAttribute="leading" secondItem="u5r-sJ-8Wh" secondAttribute="leading" constant="20" id="3A9-9x-PIr"/>
                                     <constraint firstAttribute="width" constant="188" id="6qx-8P-nds"/>
                                     <constraint firstAttribute="trailing" secondItem="WCA-Jy-Ngu" secondAttribute="trailing" constant="20" id="cnR-9C-frg"/>
+                                    <constraint firstItem="bXD-A7-6Tr" firstAttribute="centerX" secondItem="u5r-sJ-8Wh" secondAttribute="centerX" id="fRj-Pl-McA"/>
                                     <constraint firstAttribute="bottom" secondItem="bXD-A7-6Tr" secondAttribute="bottom" constant="8" id="fnY-o4-UNW"/>
                                     <constraint firstItem="bXD-A7-6Tr" firstAttribute="top" secondItem="WCA-Jy-Ngu" secondAttribute="bottom" constant="8" id="iDm-ft-K4W"/>
                                     <constraint firstAttribute="height" constant="334" id="snU-Z8-BzV"/>
